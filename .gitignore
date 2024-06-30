@@ -1,3 +1,4 @@
 doq-and-a/**
 .env
 **/__pycache__/**
+docs/**
