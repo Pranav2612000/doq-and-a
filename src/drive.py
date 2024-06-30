@@ -41,7 +41,7 @@ def download_pdf(fileId):
             print(f'Download {int(status.progress() * 100)}.')
 
         file_retrieved = file.getvalue()
-        with open(f"docs/{fileName}.pdf", "wb") as f:
+        with open(f"docs/{fileName}", "wb") as f:
             f.write(file_retrieved)
 
     except HttpError as error:
