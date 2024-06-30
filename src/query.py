@@ -42,6 +42,3 @@ def get_answer(query):
 
     sources = [doc.metadata.get("source", None) for doc, _score in results]
     return { "response": response_text, "sources": sources }
-
-x = get_answer("Why has Mr Pranav Joglekar expressed interest in travelling to Germany")
-print(x)

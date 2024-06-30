@@ -56,5 +56,3 @@ def save(chunks):
     db.persist()
     print(f"Saved {len(chunks)} chunks to {CHROMA_PATH}.");
 
-generate_knowledge()
-
