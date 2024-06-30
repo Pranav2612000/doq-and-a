@@ -1,2 +1,3 @@
 doq-and-a/**
 .env
+**/__pycache__/**
